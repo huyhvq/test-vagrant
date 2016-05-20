@@ -1,0 +1,9 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+
+mapFolder: ~/Code
+toFolder: /home/vagrant/Code
+
+mapSite: huyhvqvag.app
+toSite: /home/vagrant/Code/huyhvq/public

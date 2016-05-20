@@ -55,9 +55,6 @@ sudo sed -i "s/;date.timezone.*/date.timezone = UTC/" /etc/php/7.0/cli/php.ini
 # Install Nginx & PHP-FPM
 
 apt-get install -y --force-yes nginx php7.0-fpm
-
-rm /etc/nginx/sites-enabled/default
-rm /etc/nginx/sites-available/default
 service nginx restart
 
 # Copy fastcgi_params to Nginx
